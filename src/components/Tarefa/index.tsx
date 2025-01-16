@@ -86,7 +86,7 @@ const Tarefa = ({
             >
               Salvar
             </BotaoSalvar>
-            <S.BotaoCancelarRemover onClick={() => cancelarEdicao}>
+            <S.BotaoCancelarRemover onClick={cancelarEdicao}>
               Cancelar
             </S.BotaoCancelarRemover>
           </>
